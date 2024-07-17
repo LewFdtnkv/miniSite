@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  text-decoration: dashed;
+  display: flex;
+  width: 100%;
+  padding: 20px 40px;
+  justify-content: space-between;
+  border-bottom: 1px black solid;
+  border-radius: 3px;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+main {
+  margin-top: 120px; /* Отступ сверху, равный высоте хедера */
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+}
+
+.eyeIcon {
+  display: flex;
+  margin-right: 10px;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  text-decoration: double;
+  padding-right: 100px;
+}
+
+.menu_li {
+  margin: 0 50px;
+  justify-self: center;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: large;
+  align-items: center;
+}
+
+.menu_li:hover {
+  color: rgb(56, 177, 177);
+  opacity: 0.8;
+}
+
+.menu_li.active {
+  color: rgb(56, 177, 177);
+  opacity: 0.8;
+}
+
+.button {
+
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-weight: bold;
+  margin-right: 1rem;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.textSection {
+  display: flex;
+  flex-direction: column;
+}
+
+.wayToTeach {
+  margin-bottom: 2rem;
+  background-color: aliceblue;
+  padding: 10px;
+  border: solid 2px black;
+  border-radius: 5px;
+}
+.img_footer{
+  padding: 100px;
+}
+.wayToTeach:not(.no-hover):hover {
+  display: flex;
+  color: black;
+  text-shadow: 1px 1px #000;
+  align-content: center;
+}
+
+.text_name_page {
+  display: flex;
+  padding: 50px;
+  justify-content: center;
+}
+
+.ttl_company {
+  width: 600px;
+  font-size: 40px;
+  margin-right: 100px;
+}
+
+.about_company {
+  width: 600px;
+}
+
+.titleName {
+  display: flex;
+  font-size: 50px;
+  width: 50%;
+  margin-left: 200px;
+  margin-bottom: 75px;
+}
+
+.img_tractor {
+  width: 100%;
+  margin-bottom: 75px;
+}
+
+.menu_button {
+  all: unset;
+}
+
+.pWayToTeach {
+  all: unset;
+  margin-right: 5px;
+}
+
+.button.active {
+  background-color: #282e98;
+  color: white;
+}
+.footer_style{
+  background-color: #585454;
+  display: flex;
+  color: #fff;
+  justify-content: center;
+}
+.img_icon{
+margin-bottom: 20px;
+padding-left: 35px;
+justify-content: center;
+}
+
+.granit_title{
+  margin-bottom: 10px;
+  width: 135px;
+}
+.menu_footer{
+  display: flex;
+  flex-direction: column;
+  padding-right: 200px;
+  font-size: 18px;
+}
+.menu_footer_div{
+  font-size: 18px;
+  width: 250px;
+}
+.li_footer{
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+.h2_footer_menu{
+  margin-bottom: 20px;
+}
+.li_footer_button{
+  all:unset;
+}
+.centered_footer{
+  display: flex;
+  padding: 100px;
+}
